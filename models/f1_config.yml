@@ -1,0 +1,15 @@
+version: 2
+
+# uses 'sources' to defined expectations of database/tables before running transformation.  For example, F1_CIRCUITS
+# needs to exist. Also as ref Jinja func
+
+sources:
+- name: f1_data
+  database: data-and-analytics-297601
+  tables:
+    - name: F1_CIRCUITS
+      columns: 
+        - name: location
+          tags: [location, f1]
+          #tests:
+            #- unique

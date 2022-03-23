@@ -34,3 +34,4 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   my_f1_project:
     materialized: view
+    +post-hook: "{{ set_options(this) }}"
