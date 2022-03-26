@@ -11,5 +11,12 @@ sources:
       columns: 
         - name: location
           tags: [location, f1]
-          #tests:
-            #- unique
+        - name: country
+          tests:
+            - unique:
+                config:
+                  name: unique_country
+                  enabled: true
+                  severity: error
+                  warn_if: "<20" 
+                  error_if: ">=20"
