@@ -6563,3 +6563,897 @@ having count(*) > 1
 2022-03-26 20:36:18.351982 (Thread-220): handling status request
 2022-03-26 20:36:18.352386 (Thread-220): 20:36:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7991f0>]}
 2022-03-26 20:36:18.375707 (Thread-220): sending response (<Response 1244 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:36:22.558042 (Thread-221): 20:36:22  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:36:22.558278 (Thread-221): 20:36:22  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:36:22.564149 (Thread-221): 20:36:22  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3cb05fd0>]}
+2022-03-26 20:36:22.774913 (Thread-222): handling status request
+2022-03-26 20:36:22.775400 (Thread-222): 20:36:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7996a0>]}
+2022-03-26 20:36:22.776060 (Thread-222): sending response (<Response 1244 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:36:22.854877 (Thread-223): handling status request
+2022-03-26 20:36:22.860347 (Thread-223): 20:36:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c39a2e0>]}
+2022-03-26 20:36:22.860813 (Thread-223): sending response (<Response 1244 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:43:33.650236 (Thread-224): handling status request
+2022-03-26 20:43:33.651465 (Thread-224): 20:43:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef795af0>]}
+2022-03-26 20:43:33.651968 (Thread-224): sending response (<Response 1222 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:43:33.662394 (Thread-225): handling list request
+2022-03-26 20:43:33.662641 (Thread-225): 20:43:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef795850>]}
+2022-03-26 20:43:33.682786 (Thread-225): 20:43:33  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7e9ca0>]}
+2022-03-26 20:43:33.683192 (Thread-225): 20:43:33  Found 1 model, 1 test, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:43:33.687305 (Thread-225): sending response (<Response 2743 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:43:51.365388 (Thread-226): 20:43:51  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:43:51.365898 (Thread-226): 20:43:51  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:43:51.445166 (Thread-227): handling status request
+2022-03-26 20:43:51.445602 (Thread-227): 20:43:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7299a0>]}
+2022-03-26 20:43:51.446069 (Thread-227): sending response (<Response 185 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:43:51.456145 (Thread-226): 20:43:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef73abe0>]}
+2022-03-26 20:43:51.541582 (Thread-228): handling status request
+2022-03-26 20:43:51.541907 (Thread-228): 20:43:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7639a0>]}
+2022-03-26 20:43:51.542350 (Thread-228): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:43:52.656179 (Thread-229): handling status request
+2022-03-26 20:43:52.656592 (Thread-229): 20:43:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c1e5370>]}
+2022-03-26 20:43:52.657066 (Thread-229): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:32.832334 (Thread-230): 20:44:32  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:44:32.832929 (Thread-230): 20:44:32  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:44:32.839994 (Thread-230): 20:44:32  1699: static parser successfully parsed f1_1.sql
+2022-03-26 20:44:32.847077 (Thread-230): 20:44:32  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-03-26 20:44:32.921792 (Thread-231): handling status request
+2022-03-26 20:44:32.927413 (Thread-230): 20:44:32  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef56dfd0>]}
+2022-03-26 20:44:32.927791 (Thread-231): 20:44:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5705b0>]}
+2022-03-26 20:44:32.928493 (Thread-231): sending response (<Response 185 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:32.956397 (Thread-232): handling status request
+2022-03-26 20:44:32.956657 (Thread-232): 20:44:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5aca30>]}
+2022-03-26 20:44:32.957082 (Thread-232): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:34.144183 (Thread-233): handling status request
+2022-03-26 20:44:34.144571 (Thread-233): 20:44:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5ac640>]}
+2022-03-26 20:44:34.145042 (Thread-233): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:39.785335 (Thread-234): handling status request
+2022-03-26 20:44:39.785730 (Thread-234): 20:44:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5ac2b0>]}
+2022-03-26 20:44:39.786214 (Thread-234): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:39.992283 (Thread-235): handling cli_args request
+2022-03-26 20:44:39.992646 (Thread-235): 20:44:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5ac0d0>]}
+2022-03-26 20:44:40.057355 (Thread-236): handling status request
+2022-03-26 20:44:40.058080 (Thread-236): 20:44:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5ac790>]}
+2022-03-26 20:44:40.058913 (Thread-236): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:42.208537 (Thread-235): sending response (<Response 138 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:42.627281 (Thread-237): handling poll request
+2022-03-26 20:44:42.627648 (Thread-237): 20:44:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5ac850>]}
+2022-03-26 20:44:42.628235 (Thread-237): sending response (<Response 302 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:42.737126 (MainThread): 20:44:42  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:44:42.737540 (MainThread): 20:44:42  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:44:42.744111 (MainThread): 20:44:42  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1e5f6741-090d-4faa-b346-5215ab77101f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef683bdc70>]}
+2022-03-26 20:44:42.771492 (MainThread): 20:44:42  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '1e5f6741-090d-4faa-b346-5215ab77101f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fef6849e940>]}
+2022-03-26 20:44:42.771906 (MainThread): 20:44:42  Found 1 model, 3 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:44:42.772930 (MainThread): 20:44:42  
+2022-03-26 20:44:42.773200 (MainThread): 20:44:42  Acquiring new bigquery connection "master"
+2022-03-26 20:44:42.773965 (ThreadPoolExecutor-1_0): 20:44:42  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-03-26 20:44:42.774088 (ThreadPoolExecutor-1_0): 20:44:42  Opening a new connection, currently in state init
+2022-03-26 20:44:42.955486 (MainThread): 20:44:42  Concurrency: 4 threads (target='default')
+2022-03-26 20:44:42.955627 (MainThread): 20:44:42  
+2022-03-26 20:44:42.958080 (Thread-1): 20:44:42  Began running node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:44:42.958263 (Thread-1): 20:44:42  1 of 3 START test config_f1_1_row_count_f1_1.................................... [RUN]
+2022-03-26 20:44:42.958512 (Thread-1): 20:44:42  Acquiring new bigquery connection "test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740"
+2022-03-26 20:44:42.958607 (Thread-1): 20:44:42  Began compiling node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:44:42.958699 (Thread-1): 20:44:42  Compiling test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:44:42.963191 (Thread-2): 20:44:42  Began running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:44:42.963356 (Thread-2): 20:44:42  2 of 3 START test dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50 [RUN]
+2022-03-26 20:44:42.963623 (Thread-2): 20:44:42  Acquiring new bigquery connection "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:44:42.963715 (Thread-2): 20:44:42  Began compiling node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:44:42.963798 (Thread-2): 20:44:42  Compiling test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:44:42.970821 (Thread-3): 20:44:42  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:44:42.970965 (Thread-3): 20:44:42  3 of 3 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-03-26 20:44:42.971216 (Thread-3): 20:44:42  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:44:42.971303 (Thread-3): 20:44:42  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:44:42.971384 (Thread-3): 20:44:42  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:44:42.978080 (Thread-3): 20:44:42  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:44:42.994558 (Thread-2): 20:44:42  Writing injected SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:44:42.994980 (Thread-1): 20:44:42  finished collecting timing info
+2022-03-26 20:44:42.995282 (Thread-1): 20:44:42  Compilation Error in test config_f1_1_row_count_f1_1 (models/f1_config.yml)
+  'test_config' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-03-26 20:44:42.995440 (Thread-1): 20:44:42  1 of 3 ERROR config_f1_1_row_count_f1_1......................................... [ERROR in 0.04s]
+2022-03-26 20:44:42.995540 (Thread-1): 20:44:42  Finished running node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:44:43.001305 (Thread-3): 20:44:43  finished collecting timing info
+2022-03-26 20:44:43.001454 (Thread-3): 20:44:43  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:44:43.006634 (Thread-2): 20:44:43  finished collecting timing info
+2022-03-26 20:44:43.006761 (Thread-2): 20:44:43  Began executing node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:44:43.036307 (Thread-3): 20:44:43  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:44:43.036719 (Thread-2): 20:44:43  Writing runtime SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:44:43.047740 (Thread-2): 20:44:43  Opening a new connection, currently in state init
+2022-03-26 20:44:43.050111 (Thread-3): 20:44:43  Opening a new connection, currently in state init
+2022-03-26 20:44:43.054014 (Thread-2): 20:44:43  On test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  
+( 1=1 and count(*) >= 50 and count(*) <= 100
+)
+ as expression
+
+
+    from `data-and-analytics-297601`.`f1_data`.`f1_1`
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:44:43.057812 (Thread-3): 20:44:43  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) <20 as should_warn,
+      count(*) >=20 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:44:43.809084 (Thread-238): handling poll request
+2022-03-26 20:44:43.809462 (Thread-238): 20:44:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3cb1a5b0>]}
+2022-03-26 20:44:43.810552 (Thread-238): sending response (<Response 20678 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:44.160104 (Thread-3): 20:44:44  finished collecting timing info
+2022-03-26 20:44:44.160582 (Thread-3): 20:44:44  3 of 3 WARN 14 source_unique_f1_data_F1_CIRCUITS_country........................ [WARN 14 in 1.19s]
+2022-03-26 20:44:44.160717 (Thread-3): 20:44:44  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:44:44.556505 (Thread-2): 20:44:44  finished collecting timing info
+2022-03-26 20:44:44.556948 (Thread-2): 20:44:44  2 of 3 PASS dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.. [PASS in 1.59s]
+2022-03-26 20:44:44.557075 (Thread-2): 20:44:44  Finished running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:44:44.558646 (MainThread): 20:44:44  Acquiring new bigquery connection "master"
+2022-03-26 20:44:44.558943 (MainThread): 20:44:44  
+2022-03-26 20:44:44.559045 (MainThread): 20:44:44  Finished running 3 tests in 1.79s.
+2022-03-26 20:44:44.559126 (MainThread): 20:44:44  Connection 'master' was properly closed.
+2022-03-26 20:44:44.559203 (MainThread): 20:44:44  Connection 'test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740' was properly closed.
+2022-03-26 20:44:44.559269 (MainThread): 20:44:44  Connection 'test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11' was properly closed.
+2022-03-26 20:44:44.559332 (MainThread): 20:44:44  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-03-26 20:44:44.632929 (MainThread): 20:44:44  
+2022-03-26 20:44:44.633085 (MainThread): 20:44:44  Completed with 1 error and 1 warning:
+2022-03-26 20:44:44.633176 (MainThread): 20:44:44  
+2022-03-26 20:44:44.633264 (MainThread): 20:44:44  Compilation Error in test config_f1_1_row_count_f1_1 (models/f1_config.yml)
+2022-03-26 20:44:44.633340 (MainThread): 20:44:44    'test_config' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-03-26 20:44:44.633413 (MainThread): 20:44:44  
+2022-03-26 20:44:44.633509 (MainThread): 20:44:44  Warning in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-03-26 20:44:44.633584 (MainThread): 20:44:44    Got 14 results, configured to warn if <20
+2022-03-26 20:44:44.633654 (MainThread): 20:44:44  
+2022-03-26 20:44:44.633729 (MainThread): 20:44:44    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-03-26 20:44:44.633812 (MainThread): 20:44:44  
+2022-03-26 20:44:44.633890 (MainThread): 20:44:44  Done. PASS=1 WARN=1 ERROR=1 SKIP=0 TOTAL=3
+2022-03-26 20:44:45.000130 (Thread-239): handling poll request
+2022-03-26 20:44:45.000522 (Thread-239): 20:44:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef6494f0>]}
+2022-03-26 20:44:45.001944 (Thread-239): sending response (<Response 18906 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:45.589089 (Thread-240): handling status request
+2022-03-26 20:44:45.589474 (Thread-240): 20:44:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef6496a0>]}
+2022-03-26 20:44:45.589966 (Thread-240): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:44:45.625983 (Thread-241): handling status request
+2022-03-26 20:44:45.626267 (Thread-241): 20:44:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef649a60>]}
+2022-03-26 20:44:45.626703 (Thread-241): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:30.640943 (Thread-242): 20:48:30  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:48:30.641465 (Thread-242): 20:48:30  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:48:30.705256 (Thread-242): 20:48:30  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef37ac40>]}
+2022-03-26 20:48:30.730849 (Thread-243): handling status request
+2022-03-26 20:48:30.731136 (Thread-243): 20:48:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5aa1c0>]}
+2022-03-26 20:48:30.731570 (Thread-243): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:30.769726 (Thread-244): handling status request
+2022-03-26 20:48:30.770011 (Thread-244): 20:48:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5aa820>]}
+2022-03-26 20:48:30.770413 (Thread-244): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:33.715915 (Thread-245): handling status request
+2022-03-26 20:48:33.716287 (Thread-245): 20:48:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5659d0>]}
+2022-03-26 20:48:33.716739 (Thread-245): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:33.767312 (Thread-246): handling status request
+2022-03-26 20:48:33.767585 (Thread-246): 20:48:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5acaf0>]}
+2022-03-26 20:48:33.768004 (Thread-246): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:33.870409 (Thread-247): handling cli_args request
+2022-03-26 20:48:33.870712 (Thread-247): 20:48:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef3b7af0>]}
+2022-03-26 20:48:36.072597 (Thread-247): sending response (<Response 138 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:36.269270 (Thread-248): handling poll request
+2022-03-26 20:48:36.269741 (Thread-248): 20:48:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef649eb0>]}
+2022-03-26 20:48:36.270526 (Thread-248): sending response (<Response 302 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:36.589804 (MainThread): 20:48:36  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:48:36.590246 (MainThread): 20:48:36  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:48:36.596820 (MainThread): 20:48:36  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'dbccdae1-6af5-4b8b-af72-97a6d598a45e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5a0e8fc10>]}
+2022-03-26 20:48:36.625280 (MainThread): 20:48:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'dbccdae1-6af5-4b8b-af72-97a6d598a45e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7ff5a0f679a0>]}
+2022-03-26 20:48:36.625532 (MainThread): 20:48:36  Found 1 model, 3 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:48:36.626591 (MainThread): 20:48:36  
+2022-03-26 20:48:36.626882 (MainThread): 20:48:36  Acquiring new bigquery connection "master"
+2022-03-26 20:48:36.627700 (ThreadPoolExecutor-1_0): 20:48:36  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-03-26 20:48:36.627826 (ThreadPoolExecutor-1_0): 20:48:36  Opening a new connection, currently in state init
+2022-03-26 20:48:36.806302 (MainThread): 20:48:36  Concurrency: 4 threads (target='default')
+2022-03-26 20:48:36.806448 (MainThread): 20:48:36  
+2022-03-26 20:48:36.808968 (Thread-1): 20:48:36  Began running node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:48:36.809158 (Thread-1): 20:48:36  1 of 3 START test config_f1_1_row_count_f1_1.................................... [RUN]
+2022-03-26 20:48:36.809430 (Thread-1): 20:48:36  Acquiring new bigquery connection "test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740"
+2022-03-26 20:48:36.809525 (Thread-1): 20:48:36  Began compiling node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:48:36.809618 (Thread-1): 20:48:36  Compiling test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:48:36.814159 (Thread-2): 20:48:36  Began running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:48:36.814315 (Thread-2): 20:48:36  2 of 3 START test dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50 [RUN]
+2022-03-26 20:48:36.814571 (Thread-2): 20:48:36  Acquiring new bigquery connection "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:48:36.814659 (Thread-2): 20:48:36  Began compiling node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:48:36.814744 (Thread-2): 20:48:36  Compiling test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:48:36.821953 (Thread-3): 20:48:36  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:48:36.822102 (Thread-3): 20:48:36  3 of 3 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-03-26 20:48:36.822357 (Thread-3): 20:48:36  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:48:36.822443 (Thread-3): 20:48:36  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:48:36.822524 (Thread-3): 20:48:36  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:48:36.829287 (Thread-3): 20:48:36  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:48:36.845765 (Thread-2): 20:48:36  Writing injected SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:48:36.846619 (Thread-1): 20:48:36  finished collecting timing info
+2022-03-26 20:48:36.846930 (Thread-1): 20:48:36  Compilation Error in test config_f1_1_row_count_f1_1 (models/f1_config.yml)
+  'test_config' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-03-26 20:48:36.847092 (Thread-1): 20:48:36  1 of 3 ERROR config_f1_1_row_count_f1_1......................................... [ERROR in 0.04s]
+2022-03-26 20:48:36.847193 (Thread-1): 20:48:36  Finished running node test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740
+2022-03-26 20:48:36.851509 (Thread-3): 20:48:36  finished collecting timing info
+2022-03-26 20:48:36.851651 (Thread-3): 20:48:36  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:48:36.870875 (Thread-3): 20:48:36  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:48:36.873695 (Thread-2): 20:48:36  finished collecting timing info
+2022-03-26 20:48:36.874021 (Thread-2): 20:48:36  Began executing node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:48:36.876246 (Thread-2): 20:48:36  Writing runtime SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:48:36.884998 (Thread-3): 20:48:36  Opening a new connection, currently in state init
+2022-03-26 20:48:36.889510 (Thread-2): 20:48:36  Opening a new connection, currently in state init
+2022-03-26 20:48:36.889896 (Thread-3): 20:48:36  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) <20 as should_warn,
+      count(*) >=20 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:48:36.894675 (Thread-2): 20:48:36  On test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  
+( 1=1 and count(*) >= 50 and count(*) <= 100
+)
+ as expression
+
+
+    from `data-and-analytics-297601`.`f1_data`.`f1_1`
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:48:37.489777 (Thread-249): handling poll request
+2022-03-26 20:48:37.490135 (Thread-249): 20:48:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef570520>]}
+2022-03-26 20:48:37.515359 (Thread-249): sending response (<Response 20678 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:37.852395 (Thread-2): 20:48:37  finished collecting timing info
+2022-03-26 20:48:37.852857 (Thread-2): 20:48:37  2 of 3 PASS dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.. [PASS in 1.04s]
+2022-03-26 20:48:37.852989 (Thread-2): 20:48:37  Finished running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:48:38.023755 (Thread-3): 20:48:38  finished collecting timing info
+2022-03-26 20:48:38.024218 (Thread-3): 20:48:38  3 of 3 WARN 14 source_unique_f1_data_F1_CIRCUITS_country........................ [WARN 14 in 1.20s]
+2022-03-26 20:48:38.024340 (Thread-3): 20:48:38  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:48:38.025856 (MainThread): 20:48:38  Acquiring new bigquery connection "master"
+2022-03-26 20:48:38.026161 (MainThread): 20:48:38  
+2022-03-26 20:48:38.026257 (MainThread): 20:48:38  Finished running 3 tests in 1.40s.
+2022-03-26 20:48:38.026337 (MainThread): 20:48:38  Connection 'master' was properly closed.
+2022-03-26 20:48:38.026404 (MainThread): 20:48:38  Connection 'test.my_f1_project.config_f1_1_row_count_f1_1.2dd8fa5740' was properly closed.
+2022-03-26 20:48:38.026466 (MainThread): 20:48:38  Connection 'test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11' was properly closed.
+2022-03-26 20:48:38.026527 (MainThread): 20:48:38  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-03-26 20:48:38.100050 (MainThread): 20:48:38  
+2022-03-26 20:48:38.100199 (MainThread): 20:48:38  Completed with 1 error and 1 warning:
+2022-03-26 20:48:38.100286 (MainThread): 20:48:38  
+2022-03-26 20:48:38.100375 (MainThread): 20:48:38  Compilation Error in test config_f1_1_row_count_f1_1 (models/f1_config.yml)
+2022-03-26 20:48:38.100451 (MainThread): 20:48:38    'test_config' is undefined. This can happen when calling a macro that does not exist. Check for typos and/or install package dependencies with "dbt deps".
+2022-03-26 20:48:38.100521 (MainThread): 20:48:38  
+2022-03-26 20:48:38.100613 (MainThread): 20:48:38  Warning in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-03-26 20:48:38.100689 (MainThread): 20:48:38    Got 14 results, configured to warn if <20
+2022-03-26 20:48:38.100757 (MainThread): 20:48:38  
+2022-03-26 20:48:38.100832 (MainThread): 20:48:38    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-03-26 20:48:38.100914 (MainThread): 20:48:38  
+2022-03-26 20:48:38.100990 (MainThread): 20:48:38  Done. PASS=1 WARN=1 ERROR=1 SKIP=0 TOTAL=3
+2022-03-26 20:48:38.693483 (Thread-250): handling poll request
+2022-03-26 20:48:38.693859 (Thread-250): 20:48:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef500b80>]}
+2022-03-26 20:48:38.695241 (Thread-250): sending response (<Response 18905 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:39.246089 (Thread-251): handling status request
+2022-03-26 20:48:39.246508 (Thread-251): 20:48:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef500cd0>]}
+2022-03-26 20:48:39.247044 (Thread-251): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:48:39.249330 (Thread-252): handling status request
+2022-03-26 20:48:39.249576 (Thread-252): 20:48:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef500e80>]}
+2022-03-26 20:48:39.249932 (Thread-252): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:18.352503 (Thread-253): 20:49:18  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:49:18.353109 (Thread-253): 20:49:18  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:49:18.360932 (Thread-253): 20:49:18  1699: static parser successfully parsed f1_1.sql
+2022-03-26 20:49:18.365217 (Thread-253): 20:49:18  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-03-26 20:49:18.437207 (Thread-253): 20:49:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef154f40>]}
+2022-03-26 20:49:18.438491 (Thread-254): handling status request
+2022-03-26 20:49:18.438889 (Thread-254): 20:49:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef4c9eb0>]}
+2022-03-26 20:49:18.439347 (Thread-254): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:18.486568 (Thread-255): handling status request
+2022-03-26 20:49:18.486842 (Thread-255): 20:49:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef1eb310>]}
+2022-03-26 20:49:18.487259 (Thread-255): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:39.813321 (Thread-257): handling status request
+2022-03-26 20:49:39.813827 (Thread-257): 20:49:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c2b9bb0>]}
+2022-03-26 20:49:39.814254 (Thread-257): sending response (<Response 185 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:39.815478 (Thread-258): handling status request
+2022-03-26 20:49:39.815986 (Thread-258): 20:49:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c66c130>]}
+2022-03-26 20:49:39.816357 (Thread-258): sending response (<Response 185 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:39.874216 (Thread-256): 20:49:39  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:49:39.874631 (Thread-256): 20:49:39  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:49:39.940407 (Thread-256): 20:49:39  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef0b8640>]}
+2022-03-26 20:49:41.008671 (Thread-259): handling status request
+2022-03-26 20:49:41.009033 (Thread-259): 20:49:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef227280>]}
+2022-03-26 20:49:41.009508 (Thread-259): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:41.019181 (Thread-260): handling status request
+2022-03-26 20:49:41.019434 (Thread-260): 20:49:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef227040>]}
+2022-03-26 20:49:41.019792 (Thread-260): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:45.000477 (Thread-261): handling status request
+2022-03-26 20:49:45.000899 (Thread-261): 20:49:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef227280>]}
+2022-03-26 20:49:45.001367 (Thread-261): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:45.145189 (Thread-262): handling status request
+2022-03-26 20:49:45.145533 (Thread-262): 20:49:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5af730>]}
+2022-03-26 20:49:45.145975 (Thread-262): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:45.156943 (Thread-263): handling cli_args request
+2022-03-26 20:49:45.157184 (Thread-263): 20:49:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef5af2e0>]}
+2022-03-26 20:49:47.354087 (Thread-263): sending response (<Response 138 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:47.537028 (Thread-264): handling poll request
+2022-03-26 20:49:47.537473 (Thread-264): 20:49:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef227a60>]}
+2022-03-26 20:49:47.538239 (Thread-264): sending response (<Response 302 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:47.873389 (MainThread): 20:49:47  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:49:47.873814 (MainThread): 20:49:47  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:49:47.880329 (MainThread): 20:49:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'cef5625e-887e-4b7b-8848-ce0b3b08a9e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c40bfe6d0>]}
+2022-03-26 20:49:47.911965 (MainThread): 20:49:47  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cef5625e-887e-4b7b-8848-ce0b3b08a9e7', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f9c40cd7d30>]}
+2022-03-26 20:49:47.912489 (MainThread): 20:49:47  Found 1 model, 2 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:49:47.913595 (MainThread): 20:49:47  
+2022-03-26 20:49:47.913855 (MainThread): 20:49:47  Acquiring new bigquery connection "master"
+2022-03-26 20:49:47.914607 (ThreadPoolExecutor-1_0): 20:49:47  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-03-26 20:49:47.914728 (ThreadPoolExecutor-1_0): 20:49:47  Opening a new connection, currently in state init
+2022-03-26 20:49:48.096376 (MainThread): 20:49:48  Concurrency: 4 threads (target='default')
+2022-03-26 20:49:48.096527 (MainThread): 20:49:48  
+2022-03-26 20:49:48.098976 (Thread-1): 20:49:48  Began running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:49:48.099173 (Thread-1): 20:49:48  1 of 2 START test dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50 [RUN]
+2022-03-26 20:49:48.099450 (Thread-1): 20:49:48  Acquiring new bigquery connection "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:49:48.099545 (Thread-1): 20:49:48  Began compiling node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:49:48.099640 (Thread-1): 20:49:48  Compiling test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:49:48.104108 (Thread-2): 20:49:48  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:49:48.104259 (Thread-2): 20:49:48  2 of 2 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-03-26 20:49:48.104514 (Thread-2): 20:49:48  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:49:48.104600 (Thread-2): 20:49:48  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:49:48.104681 (Thread-2): 20:49:48  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:49:48.125109 (Thread-1): 20:49:48  Writing injected SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:49:48.130165 (Thread-2): 20:49:48  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:49:48.144063 (Thread-2): 20:49:48  finished collecting timing info
+2022-03-26 20:49:48.144203 (Thread-2): 20:49:48  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:49:48.149407 (Thread-1): 20:49:48  finished collecting timing info
+2022-03-26 20:49:48.149537 (Thread-1): 20:49:48  Began executing node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:49:48.178944 (Thread-2): 20:49:48  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:49:48.179457 (Thread-1): 20:49:48  Writing runtime SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:49:48.192968 (Thread-2): 20:49:48  Opening a new connection, currently in state init
+2022-03-26 20:49:48.193302 (Thread-1): 20:49:48  Opening a new connection, currently in state closed
+2022-03-26 20:49:48.197517 (Thread-2): 20:49:48  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) <20 as should_warn,
+      count(*) >=20 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:49:48.198488 (Thread-1): 20:49:48  On test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  
+( 1=1 and count(*) >= 50 and count(*) <= 100
+)
+ as expression
+
+
+    from `data-and-analytics-297601`.`f1_data`.`f1_1`
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:49:48.785518 (Thread-265): handling poll request
+2022-03-26 20:49:48.785887 (Thread-265): 20:49:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef73ad90>]}
+2022-03-26 20:49:48.786835 (Thread-265): sending response (<Response 16143 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:49.093383 (Thread-1): 20:49:49  finished collecting timing info
+2022-03-26 20:49:49.093810 (Thread-1): 20:49:49  1 of 2 PASS dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.. [PASS in 0.99s]
+2022-03-26 20:49:49.093935 (Thread-1): 20:49:49  Finished running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:49:49.230137 (Thread-2): 20:49:49  finished collecting timing info
+2022-03-26 20:49:49.230526 (Thread-2): 20:49:49  2 of 2 WARN 14 source_unique_f1_data_F1_CIRCUITS_country........................ [WARN 14 in 1.13s]
+2022-03-26 20:49:49.230639 (Thread-2): 20:49:49  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:49:49.232141 (MainThread): 20:49:49  Acquiring new bigquery connection "master"
+2022-03-26 20:49:49.232443 (MainThread): 20:49:49  
+2022-03-26 20:49:49.232556 (MainThread): 20:49:49  Finished running 2 tests in 1.32s.
+2022-03-26 20:49:49.232642 (MainThread): 20:49:49  Connection 'master' was properly closed.
+2022-03-26 20:49:49.232710 (MainThread): 20:49:49  Connection 'test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11' was properly closed.
+2022-03-26 20:49:49.232772 (MainThread): 20:49:49  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-03-26 20:49:49.301894 (MainThread): 20:49:49  
+2022-03-26 20:49:49.302051 (MainThread): 20:49:49  Completed with 1 warning:
+2022-03-26 20:49:49.302141 (MainThread): 20:49:49  
+2022-03-26 20:49:49.302238 (MainThread): 20:49:49  Warning in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-03-26 20:49:49.302316 (MainThread): 20:49:49    Got 14 results, configured to warn if <20
+2022-03-26 20:49:49.302387 (MainThread): 20:49:49  
+2022-03-26 20:49:49.302463 (MainThread): 20:49:49    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-03-26 20:49:49.302545 (MainThread): 20:49:49  
+2022-03-26 20:49:49.302623 (MainThread): 20:49:49  Done. PASS=1 WARN=1 ERROR=0 SKIP=0 TOTAL=2
+2022-03-26 20:49:49.982829 (Thread-266): handling poll request
+2022-03-26 20:49:49.983208 (Thread-266): 20:49:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef4b97f0>]}
+2022-03-26 20:49:49.984373 (Thread-266): sending response (<Response 15224 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:50.539589 (Thread-267): handling status request
+2022-03-26 20:49:50.540011 (Thread-267): 20:49:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef4b9f70>]}
+2022-03-26 20:49:50.540499 (Thread-267): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:49:50.596864 (Thread-268): handling status request
+2022-03-26 20:49:50.597198 (Thread-268): 20:49:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c35f910>]}
+2022-03-26 20:49:50.597632 (Thread-268): sending response (<Response 1258 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:17.592065 (Thread-269): 20:50:17  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:50:17.592676 (Thread-269): 20:50:17  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:50:17.600636 (Thread-269): 20:50:17  1699: static parser successfully parsed f1_1.sql
+2022-03-26 20:50:17.604802 (Thread-269): 20:50:17  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-03-26 20:50:17.656418 (Thread-270): handling status request
+2022-03-26 20:50:17.656754 (Thread-270): 20:50:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef2ae220>]}
+2022-03-26 20:50:17.657175 (Thread-270): sending response (<Response 185 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:17.676763 (Thread-269): 20:50:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef77faf0>]}
+2022-03-26 20:50:17.708775 (Thread-271): handling status request
+2022-03-26 20:50:17.709037 (Thread-271): 20:50:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c195790>]}
+2022-03-26 20:50:17.709517 (Thread-271): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:18.900327 (Thread-272): handling status request
+2022-03-26 20:50:18.900722 (Thread-272): 20:50:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c1f6ca0>]}
+2022-03-26 20:50:18.901227 (Thread-272): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:20.315226 (Thread-273): handling status request
+2022-03-26 20:50:20.315594 (Thread-273): 20:50:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c39ac40>]}
+2022-03-26 20:50:20.316102 (Thread-273): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:20.454150 (Thread-274): handling status request
+2022-03-26 20:50:20.454508 (Thread-274): 20:50:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c39acd0>]}
+2022-03-26 20:50:20.454997 (Thread-274): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:20.518393 (Thread-275): handling cli_args request
+2022-03-26 20:50:20.518695 (Thread-275): 20:50:20  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c1e56d0>]}
+2022-03-26 20:50:22.720185 (Thread-275): sending response (<Response 138 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:22.897824 (Thread-276): handling poll request
+2022-03-26 20:50:22.898271 (Thread-276): 20:50:22  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7e9070>]}
+2022-03-26 20:50:22.899037 (Thread-276): sending response (<Response 302 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:23.244861 (MainThread): 20:50:23  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:50:23.245470 (MainThread): 20:50:23  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:50:23.255911 (MainThread): 20:50:23  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '99854bce-c58a-4b9f-a1e3-287d663f6264', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d3f5b760>]}
+2022-03-26 20:50:23.283923 (MainThread): 20:50:23  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '99854bce-c58a-4b9f-a1e3-287d663f6264', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f73d4038dc0>]}
+2022-03-26 20:50:23.284158 (MainThread): 20:50:23  Found 1 model, 2 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:50:23.285145 (MainThread): 20:50:23  
+2022-03-26 20:50:23.285425 (MainThread): 20:50:23  Acquiring new bigquery connection "master"
+2022-03-26 20:50:23.286241 (ThreadPoolExecutor-1_0): 20:50:23  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-03-26 20:50:23.286380 (ThreadPoolExecutor-1_0): 20:50:23  Opening a new connection, currently in state init
+2022-03-26 20:50:23.448200 (MainThread): 20:50:23  Concurrency: 4 threads (target='default')
+2022-03-26 20:50:23.448369 (MainThread): 20:50:23  
+2022-03-26 20:50:23.450904 (Thread-1): 20:50:23  Began running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2
+2022-03-26 20:50:23.451093 (Thread-1): 20:50:23  1 of 2 START test dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50 [RUN]
+2022-03-26 20:50:23.451359 (Thread-1): 20:50:23  Acquiring new bigquery connection "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2"
+2022-03-26 20:50:23.451459 (Thread-1): 20:50:23  Began compiling node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2
+2022-03-26 20:50:23.451554 (Thread-1): 20:50:23  Compiling test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2
+2022-03-26 20:50:23.456017 (Thread-2): 20:50:23  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:50:23.456185 (Thread-2): 20:50:23  2 of 2 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-03-26 20:50:23.456449 (Thread-2): 20:50:23  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:50:23.456542 (Thread-2): 20:50:23  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:50:23.456632 (Thread-2): 20:50:23  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:50:23.477160 (Thread-1): 20:50:23  Writing injected SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2"
+2022-03-26 20:50:23.483351 (Thread-2): 20:50:23  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:50:23.487870 (Thread-1): 20:50:23  finished collecting timing info
+2022-03-26 20:50:23.488017 (Thread-1): 20:50:23  Began executing node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2
+2022-03-26 20:50:23.507028 (Thread-1): 20:50:23  Writing runtime SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2"
+2022-03-26 20:50:23.509349 (Thread-2): 20:50:23  finished collecting timing info
+2022-03-26 20:50:23.509507 (Thread-2): 20:50:23  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:50:23.511630 (Thread-2): 20:50:23  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:50:23.516776 (Thread-1): 20:50:23  Opening a new connection, currently in state closed
+2022-03-26 20:50:23.521142 (Thread-1): 20:50:23  On test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  
+( 1=1 and count(*) >= 50 and count(*) <= 60
+)
+ as expression
+
+
+    from `data-and-analytics-297601`.`f1_data`.`f1_1`
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:50:23.524232 (Thread-2): 20:50:23  Opening a new connection, currently in state init
+2022-03-26 20:50:23.528559 (Thread-2): 20:50:23  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) <20 as should_warn,
+      count(*) >=20 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:50:24.059557 (Thread-277): handling poll request
+2022-03-26 20:50:24.059978 (Thread-277): 20:50:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c1fecd0>]}
+2022-03-26 20:50:24.060995 (Thread-277): sending response (<Response 16120 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:24.642325 (Thread-2): 20:50:24  finished collecting timing info
+2022-03-26 20:50:24.642793 (Thread-2): 20:50:24  2 of 2 WARN 14 source_unique_f1_data_F1_CIRCUITS_country........................ [WARN 14 in 1.19s]
+2022-03-26 20:50:24.643120 (Thread-2): 20:50:24  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:50:24.956330 (Thread-1): 20:50:24  finished collecting timing info
+2022-03-26 20:50:24.956751 (Thread-1): 20:50:24  1 of 2 FAIL 1 dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50. [FAIL 1 in 1.51s]
+2022-03-26 20:50:24.956875 (Thread-1): 20:50:24  Finished running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2
+2022-03-26 20:50:24.958493 (MainThread): 20:50:24  Acquiring new bigquery connection "master"
+2022-03-26 20:50:24.958789 (MainThread): 20:50:24  
+2022-03-26 20:50:24.958885 (MainThread): 20:50:24  Finished running 2 tests in 1.67s.
+2022-03-26 20:50:24.958966 (MainThread): 20:50:24  Connection 'master' was properly closed.
+2022-03-26 20:50:24.959035 (MainThread): 20:50:24  Connection 'test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50.dc60a3cef2' was properly closed.
+2022-03-26 20:50:24.959101 (MainThread): 20:50:24  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-03-26 20:50:25.029865 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030023 (MainThread): 20:50:25  Completed with 1 error and 1 warning:
+2022-03-26 20:50:25.030110 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030209 (MainThread): 20:50:25  Failure in test dbt_expectations_expect_table_row_count_to_be_between_f1_1_60__50 (models/f1_config.yml)
+2022-03-26 20:50:25.030289 (MainThread): 20:50:25    Got 1 result, configured to fail if != 0
+2022-03-26 20:50:25.030361 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030439 (MainThread): 20:50:25    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/dbt_expectations_expect_table__352bc5c70d29123a3e8bd503f474fb85.sql
+2022-03-26 20:50:25.030516 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030603 (MainThread): 20:50:25  Warning in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-03-26 20:50:25.030673 (MainThread): 20:50:25    Got 14 results, configured to warn if <20
+2022-03-26 20:50:25.030739 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030810 (MainThread): 20:50:25    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-03-26 20:50:25.030886 (MainThread): 20:50:25  
+2022-03-26 20:50:25.030962 (MainThread): 20:50:25  Done. PASS=0 WARN=1 ERROR=1 SKIP=0 TOTAL=2
+2022-03-26 20:50:25.208169 (Thread-278): handling poll request
+2022-03-26 20:50:25.208539 (Thread-278): 20:50:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c0c0820>]}
+2022-03-26 20:50:25.209835 (Thread-278): sending response (<Response 17518 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:25.821887 (Thread-279): handling status request
+2022-03-26 20:50:25.822255 (Thread-279): 20:50:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c0c09d0>]}
+2022-03-26 20:50:25.830836 (Thread-280): handling status request
+2022-03-26 20:50:25.831117 (Thread-280): 20:50:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef187070>]}
+2022-03-26 20:50:25.846838 (Thread-279): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:50:25.847241 (Thread-280): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:29.594029 (Thread-281): 20:51:29  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-03-26 20:51:29.594663 (Thread-281): 20:51:29  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-03-26 20:51:29.602112 (Thread-281): 20:51:29  1699: static parser successfully parsed f1_1.sql
+2022-03-26 20:51:29.606425 (Thread-281): 20:51:29  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-03-26 20:51:29.675254 (Thread-281): 20:51:29  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef7cec10>]}
+2022-03-26 20:51:29.773414 (Thread-282): handling status request
+2022-03-26 20:51:29.773805 (Thread-282): 20:51:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef781c40>]}
+2022-03-26 20:51:29.774284 (Thread-282): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:29.778450 (Thread-283): handling status request
+2022-03-26 20:51:29.778686 (Thread-283): 20:51:29  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef1821c0>]}
+2022-03-26 20:51:29.779049 (Thread-283): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:31.183236 (Thread-284): handling status request
+2022-03-26 20:51:31.183602 (Thread-284): 20:51:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef223310>]}
+2022-03-26 20:51:31.184108 (Thread-284): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:31.344406 (Thread-285): handling status request
+2022-03-26 20:51:31.344737 (Thread-285): 20:51:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef337dc0>]}
+2022-03-26 20:51:31.345197 (Thread-285): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:31.352357 (Thread-286): handling cli_args request
+2022-03-26 20:51:31.352602 (Thread-286): 20:51:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c195b50>]}
+2022-03-26 20:51:33.610866 (Thread-286): sending response (<Response 138 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:33.777754 (Thread-287): handling poll request
+2022-03-26 20:51:33.778203 (Thread-287): 20:51:33  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef23ef40>]}
+2022-03-26 20:51:33.778961 (Thread-287): sending response (<Response 302 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:34.130578 (MainThread): 20:51:34  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-03-26 20:51:34.131004 (MainThread): 20:51:34  Partial parsing enabled, no changes found, skipping parsing
+2022-03-26 20:51:34.137520 (MainThread): 20:51:34  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '11d37257-ab91-497c-a8e1-7c634771f427', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b3c47b6d0>]}
+2022-03-26 20:51:34.168065 (MainThread): 20:51:34  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '11d37257-ab91-497c-a8e1-7c634771f427', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f5b3c55cd30>]}
+2022-03-26 20:51:34.168477 (MainThread): 20:51:34  Found 1 model, 2 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-03-26 20:51:34.169465 (MainThread): 20:51:34  
+2022-03-26 20:51:34.169736 (MainThread): 20:51:34  Acquiring new bigquery connection "master"
+2022-03-26 20:51:34.170485 (ThreadPoolExecutor-1_0): 20:51:34  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-03-26 20:51:34.170608 (ThreadPoolExecutor-1_0): 20:51:34  Opening a new connection, currently in state init
+2022-03-26 20:51:34.336104 (MainThread): 20:51:34  Concurrency: 4 threads (target='default')
+2022-03-26 20:51:34.336244 (MainThread): 20:51:34  
+2022-03-26 20:51:34.338651 (Thread-1): 20:51:34  Began running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:51:34.338833 (Thread-1): 20:51:34  1 of 2 START test dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50 [RUN]
+2022-03-26 20:51:34.339089 (Thread-1): 20:51:34  Acquiring new bigquery connection "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:51:34.339193 (Thread-1): 20:51:34  Began compiling node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:51:34.339289 (Thread-1): 20:51:34  Compiling test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:51:34.343978 (Thread-2): 20:51:34  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:51:34.344126 (Thread-2): 20:51:34  2 of 2 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-03-26 20:51:34.344370 (Thread-2): 20:51:34  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:51:34.344455 (Thread-2): 20:51:34  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:51:34.344536 (Thread-2): 20:51:34  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:51:34.365354 (Thread-1): 20:51:34  Writing injected SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:51:34.371712 (Thread-2): 20:51:34  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:51:34.379275 (Thread-1): 20:51:34  finished collecting timing info
+2022-03-26 20:51:34.379418 (Thread-1): 20:51:34  Began executing node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:51:34.398371 (Thread-1): 20:51:34  Writing runtime SQL for node "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"
+2022-03-26 20:51:34.405267 (Thread-2): 20:51:34  finished collecting timing info
+2022-03-26 20:51:34.405591 (Thread-2): 20:51:34  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:51:34.407626 (Thread-2): 20:51:34  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-03-26 20:51:34.414104 (Thread-1): 20:51:34  Opening a new connection, currently in state closed
+2022-03-26 20:51:34.418572 (Thread-1): 20:51:34  On test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+
+
+
+    with grouped_expression as (
+    select
+        
+        
+    
+  
+( 1=1 and count(*) >= 50 and count(*) <= 100
+)
+ as expression
+
+
+    from `data-and-analytics-297601`.`f1_data`.`f1_1`
+    
+
+),
+validation_errors as (
+
+    select
+        *
+    from
+        grouped_expression
+    where
+        not(expression = true)
+
+)
+
+select *
+from validation_errors
+
+
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:51:34.422417 (Thread-2): 20:51:34  Opening a new connection, currently in state init
+2022-03-26 20:51:34.426838 (Thread-2): 20:51:34  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) <20 as should_warn,
+      count(*) >=20 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-03-26 20:51:34.968593 (Thread-288): handling poll request
+2022-03-26 20:51:34.968964 (Thread-288): 20:51:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2cef77fb20>]}
+2022-03-26 20:51:34.969933 (Thread-288): sending response (<Response 16143 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:35.453711 (Thread-1): 20:51:35  finished collecting timing info
+2022-03-26 20:51:35.454161 (Thread-1): 20:51:35  1 of 2 PASS dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.. [PASS in 1.12s]
+2022-03-26 20:51:35.454292 (Thread-1): 20:51:35  Finished running node test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11
+2022-03-26 20:51:35.468861 (Thread-2): 20:51:35  finished collecting timing info
+2022-03-26 20:51:35.469220 (Thread-2): 20:51:35  2 of 2 WARN 14 source_unique_f1_data_F1_CIRCUITS_country........................ [WARN 14 in 1.12s]
+2022-03-26 20:51:35.469339 (Thread-2): 20:51:35  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-03-26 20:51:35.470812 (MainThread): 20:51:35  Acquiring new bigquery connection "master"
+2022-03-26 20:51:35.471097 (MainThread): 20:51:35  
+2022-03-26 20:51:35.471190 (MainThread): 20:51:35  Finished running 2 tests in 1.30s.
+2022-03-26 20:51:35.471270 (MainThread): 20:51:35  Connection 'master' was properly closed.
+2022-03-26 20:51:35.471335 (MainThread): 20:51:35  Connection 'test.my_f1_project.dbt_expectations_expect_table_row_count_to_be_between_f1_1_100__50.5c6e75ae11' was properly closed.
+2022-03-26 20:51:35.471397 (MainThread): 20:51:35  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-03-26 20:51:35.543006 (MainThread): 20:51:35  
+2022-03-26 20:51:35.543364 (MainThread): 20:51:35  Completed with 1 warning:
+2022-03-26 20:51:35.543496 (MainThread): 20:51:35  
+2022-03-26 20:51:35.543595 (MainThread): 20:51:35  Warning in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-03-26 20:51:35.543675 (MainThread): 20:51:35    Got 14 results, configured to warn if <20
+2022-03-26 20:51:35.543747 (MainThread): 20:51:35  
+2022-03-26 20:51:35.543826 (MainThread): 20:51:35    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-03-26 20:51:35.543948 (MainThread): 20:51:35  
+2022-03-26 20:51:35.544048 (MainThread): 20:51:35  Done. PASS=1 WARN=1 ERROR=0 SKIP=0 TOTAL=2
+2022-03-26 20:51:36.160357 (Thread-289): handling poll request
+2022-03-26 20:51:36.160726 (Thread-289): 20:51:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c1043a0>]}
+2022-03-26 20:51:36.161928 (Thread-289): sending response (<Response 15225 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:36.764129 (Thread-290): handling status request
+2022-03-26 20:51:36.764537 (Thread-290): 20:51:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c104550>]}
+2022-03-26 20:51:36.765058 (Thread-290): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:51:36.792701 (Thread-291): handling status request
+2022-03-26 20:51:36.792967 (Thread-291): 20:51:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c104910>]}
+2022-03-26 20:51:36.793383 (Thread-291): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
+2022-03-26 20:54:45.441658 (Thread-292): handling status request
+2022-03-26 20:54:45.443003 (Thread-292): 20:54:45  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '1c7e23b9-7a92-4b02-aee3-37513fc19b9f', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f2d3c104b80>]}
+2022-03-26 20:54:45.443502 (Thread-292): sending response (<Response 1850 bytes [200 OK]>) to 10.0.42.134
