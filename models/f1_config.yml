@@ -13,17 +13,11 @@ sources:
           tags: [location, f1]
         - name: country
           tests:
-            - unique:
+            - accepted_values:
+                values: ['Canada', 'USA']
                 config:
-                  name: unique_country
+                  name: accepted_countries
                   enabled: true
                   severity: error
-                  warn_if: "<20" 
-                  error_if: ">=20"
-
-models:
-- name: f1_1
-  tests:
-    - dbt_expectations.expect_table_row_count_to_be_between:
-        min_value: 50
-        max_value: 100
+                  warn_if: "<40"
+                  error_if: ">=41"

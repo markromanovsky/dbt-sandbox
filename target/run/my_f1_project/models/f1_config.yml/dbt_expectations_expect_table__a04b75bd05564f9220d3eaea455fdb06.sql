@@ -1,4 +1,9 @@
-
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
 
 
 
@@ -8,7 +13,7 @@
         
     
   
-( 1=1 and count(*) >= 50 and count(*) <= 100
+( 1=1 and count(*) >= 50 and count(*) <= 75
 )
  as expression
 
@@ -34,3 +39,6 @@ from validation_errors
 
 
 
+
+      
+    ) dbt_internal_test
