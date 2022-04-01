@@ -10475,3 +10475,275 @@ where value_field not in (
 2022-04-01 13:51:15.405452 (Thread-408): handling status request
 2022-04-01 13:51:15.405831 (Thread-408): 13:51:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c9046fcd0>]}
 2022-04-01 13:51:15.406351 (Thread-408): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:51:19.043841 (Thread-409): 13:51:19  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-04-01 13:51:19.044097 (Thread-409): 13:51:19  Partial parsing enabled, no changes found, skipping parsing
+2022-04-01 13:51:19.052291 (Thread-409): 13:51:19  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c9028f520>]}
+2022-04-01 13:51:19.136347 (Thread-410): handling status request
+2022-04-01 13:51:19.136697 (Thread-410): 13:51:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c903962b0>]}
+2022-04-01 13:51:19.137182 (Thread-410): sending response (<Response 1244 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:51:19.165094 (Thread-411): handling status request
+2022-04-01 13:51:19.165365 (Thread-411): 13:51:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90396040>]}
+2022-04-01 13:51:19.165762 (Thread-411): sending response (<Response 1244 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:31.622553 (Thread-412): 13:58:31  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-04-01 13:58:31.623156 (Thread-412): 13:58:31  Partial parsing: deleted source source.my_f1_project.f1_data.F1_CIRCUITS
+2022-04-01 13:58:31.623324 (Thread-412): 13:58:31  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-04-01 13:58:31.631676 (Thread-412): 13:58:31  1699: static parser successfully parsed f1_1.sql
+2022-04-01 13:58:31.636011 (Thread-412): 13:58:31  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-04-01 13:58:31.781204 (Thread-413): handling status request
+2022-04-01 13:58:31.781990 (Thread-414): handling status request
+2022-04-01 13:58:31.782376 (Thread-413): 13:58:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90116e20>]}
+2022-04-01 13:58:31.782700 (Thread-414): 13:58:31  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c901165b0>]}
+2022-04-01 13:58:31.783243 (Thread-413): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:31.783758 (Thread-414): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:35.448923 (Thread-415): handling status request
+2022-04-01 13:58:35.449334 (Thread-415): 13:58:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90396820>]}
+2022-04-01 13:58:35.450022 (Thread-415): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:35.569935 (Thread-416): handling status request
+2022-04-01 13:58:35.570315 (Thread-416): 13:58:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90116cd0>]}
+2022-04-01 13:58:35.570811 (Thread-416): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:35.608312 (Thread-417): handling cli_args request
+2022-04-01 13:58:35.608620 (Thread-417): 13:58:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90116880>]}
+2022-04-01 13:58:35.609096 (Thread-417): sending response (<Response 419 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:38.444867 (Thread-418): handling status request
+2022-04-01 13:58:38.445255 (Thread-418): 13:58:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90116e20>]}
+2022-04-01 13:58:38.445750 (Thread-418): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:38.549389 (Thread-419): handling status request
+2022-04-01 13:58:38.549767 (Thread-419): 13:58:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90116430>]}
+2022-04-01 13:58:38.550261 (Thread-419): sending response (<Response 1764 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:49.662841 (Thread-421): handling status request
+2022-04-01 13:58:49.663241 (Thread-421): 13:58:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c904c5cd0>]}
+2022-04-01 13:58:49.663712 (Thread-421): sending response (<Response 803 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:49.693019 (Thread-422): handling status request
+2022-04-01 13:58:49.693280 (Thread-422): 13:58:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c904c5a00>]}
+2022-04-01 13:58:49.693647 (Thread-422): sending response (<Response 803 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:56.624041 (Thread-424): handling status request
+2022-04-01 13:58:56.624449 (Thread-424): 13:58:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb013a6a0>]}
+2022-04-01 13:58:56.624943 (Thread-424): sending response (<Response 836 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:56.633570 (Thread-425): handling status request
+2022-04-01 13:58:56.633905 (Thread-425): 13:58:56  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb013a880>]}
+2022-04-01 13:58:56.634297 (Thread-425): sending response (<Response 836 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:58.663932 (Thread-426): handling status request
+2022-04-01 13:58:58.664311 (Thread-426): 13:58:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb013aa60>]}
+2022-04-01 13:58:58.664794 (Thread-426): sending response (<Response 836 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:58.809363 (Thread-427): handling cli_args request
+2022-04-01 13:58:58.809717 (Thread-427): 13:58:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb013abe0>]}
+2022-04-01 13:58:58.810145 (Thread-427): sending response (<Response 1631 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:58:58.841589 (Thread-428): handling status request
+2022-04-01 13:58:58.841867 (Thread-428): 13:58:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c9064a730>]}
+2022-04-01 13:58:58.842272 (Thread-428): sending response (<Response 836 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:38.883066 (Thread-430): handling status request
+2022-04-01 13:59:38.883465 (Thread-430): 13:59:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d1c5beeb0>]}
+2022-04-01 13:59:38.883928 (Thread-430): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:38.902678 (Thread-431): handling status request
+2022-04-01 13:59:38.902923 (Thread-431): 13:59:38  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d1c5bea30>]}
+2022-04-01 13:59:38.903288 (Thread-431): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:41.245382 (Thread-432): handling status request
+2022-04-01 13:59:41.245836 (Thread-432): 13:59:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d1c5beee0>]}
+2022-04-01 13:59:41.246317 (Thread-432): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:41.313075 (Thread-433): handling status request
+2022-04-01 13:59:41.313391 (Thread-433): 13:59:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4532f10>]}
+2022-04-01 13:59:41.335600 (Thread-433): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:41.358832 (Thread-434): handling cli_args request
+2022-04-01 13:59:41.359109 (Thread-434): 13:59:41  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4532700>]}
+2022-04-01 13:59:41.359505 (Thread-434): sending response (<Response 1623 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:43.325515 (Thread-435): handling status request
+2022-04-01 13:59:43.325942 (Thread-435): 13:59:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8d52203fa0>]}
+2022-04-01 13:59:43.326389 (Thread-435): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:43.416288 (Thread-436): handling status request
+2022-04-01 13:59:43.416723 (Thread-436): 13:59:43  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4532370>]}
+2022-04-01 13:59:43.417214 (Thread-436): sending response (<Response 832 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:47.192417 (Thread-437): 13:59:47  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-04-01 13:59:47.192994 (Thread-437): 13:59:47  Partial parsing: deleted source source.my_f1_project.f1_data.F1_CIRCUITS
+2022-04-01 13:59:47.193160 (Thread-437): 13:59:47  Partial parsing: update schema file: my_f1_project://models/f1_config.yml
+2022-04-01 13:59:47.200775 (Thread-437): 13:59:47  1699: static parser successfully parsed f1_1.sql
+2022-04-01 13:59:47.204699 (Thread-437): 13:59:47  Altering Table: `data-and-analytics-297601`.`f1_data`.`f1_1`
+2022-04-01 13:59:47.290453 (Thread-438): handling status request
+2022-04-01 13:59:47.290801 (Thread-438): 13:59:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c902ab820>]}
+2022-04-01 13:59:47.291233 (Thread-438): sending response (<Response 185 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:47.307004 (Thread-437): 13:59:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c90210ac0>]}
+2022-04-01 13:59:47.320719 (Thread-439): handling status request
+2022-04-01 13:59:47.320988 (Thread-439): 13:59:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb0658190>]}
+2022-04-01 13:59:47.321419 (Thread-439): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:48.431481 (Thread-440): handling status request
+2022-04-01 13:59:48.431858 (Thread-440): 13:59:48  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c9028bfa0>]}
+2022-04-01 13:59:48.432351 (Thread-440): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:49.145580 (Thread-441): handling status request
+2022-04-01 13:59:49.145939 (Thread-441): 13:59:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8c9028b8e0>]}
+2022-04-01 13:59:49.146458 (Thread-441): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:49.255933 (Thread-442): handling status request
+2022-04-01 13:59:49.256273 (Thread-442): 13:59:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb062ee20>]}
+2022-04-01 13:59:49.256797 (Thread-442): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:49.263673 (Thread-443): handling cli_args request
+2022-04-01 13:59:49.263914 (Thread-443): 13:59:49  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb0630400>]}
+2022-04-01 13:59:51.494230 (Thread-443): sending response (<Response 138 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:51.633131 (Thread-444): handling poll request
+2022-04-01 13:59:51.633669 (Thread-444): 13:59:51  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cb063cdc0>]}
+2022-04-01 13:59:51.634844 (Thread-444): sending response (<Response 286 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:51.801615 (MainThread): 13:59:51  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-04-01 13:59:51.802038 (MainThread): 13:59:51  Partial parsing enabled, no changes found, skipping parsing
+2022-04-01 13:59:51.808951 (MainThread): 13:59:51  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c00d6a40-ffb1-4cd1-a9be-246af42d6bc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f27f06716d0>]}
+2022-04-01 13:59:51.836502 (MainThread): 13:59:51  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c00d6a40-ffb1-4cd1-a9be-246af42d6bc1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f27f107dd30>]}
+2022-04-01 13:59:51.836782 (MainThread): 13:59:51  Found 1 model, 3 tests, 0 snapshots, 0 analyses, 593 macros, 0 operations, 0 seed files, 1 source, 0 exposures, 0 metrics
+2022-04-01 13:59:51.837775 (MainThread): 13:59:51  
+2022-04-01 13:59:51.838040 (MainThread): 13:59:51  Acquiring new bigquery connection "master"
+2022-04-01 13:59:51.838815 (ThreadPoolExecutor-1_0): 13:59:51  Acquiring new bigquery connection "list_data-and-analytics-297601_f1_data"
+2022-04-01 13:59:51.838938 (ThreadPoolExecutor-1_0): 13:59:51  Opening a new connection, currently in state init
+2022-04-01 13:59:52.017435 (MainThread): 13:59:52  Concurrency: 4 threads (target='default')
+2022-04-01 13:59:52.017599 (MainThread): 13:59:52  
+2022-04-01 13:59:52.020210 (Thread-1): 13:59:52  Began running node test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48
+2022-04-01 13:59:52.020392 (Thread-1): 13:59:52  1 of 3 START test source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA [RUN]
+2022-04-01 13:59:52.020668 (Thread-1): 13:59:52  Acquiring new bigquery connection "test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48"
+2022-04-01 13:59:52.020767 (Thread-1): 13:59:52  Began compiling node test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48
+2022-04-01 13:59:52.020861 (Thread-1): 13:59:52  Compiling test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48
+2022-04-01 13:59:52.025301 (Thread-2): 13:59:52  Began running node test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7
+2022-04-01 13:59:52.025450 (Thread-2): 13:59:52  2 of 3 START test source_not_null_f1_data_F1_CIRCUITS_country................... [RUN]
+2022-04-01 13:59:52.025702 (Thread-2): 13:59:52  Acquiring new bigquery connection "test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7"
+2022-04-01 13:59:52.025789 (Thread-2): 13:59:52  Began compiling node test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7
+2022-04-01 13:59:52.025872 (Thread-2): 13:59:52  Compiling test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7
+2022-04-01 13:59:52.038746 (Thread-2): 13:59:52  Writing injected SQL for node "test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7"
+2022-04-01 13:59:52.042471 (Thread-1): 13:59:52  Writing injected SQL for node "test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48"
+2022-04-01 13:59:52.042830 (Thread-3): 13:59:52  Began running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-04-01 13:59:52.042979 (Thread-3): 13:59:52  3 of 3 START test source_unique_f1_data_F1_CIRCUITS_country..................... [RUN]
+2022-04-01 13:59:52.043225 (Thread-3): 13:59:52  Acquiring new bigquery connection "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-04-01 13:59:52.043313 (Thread-3): 13:59:52  Began compiling node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-04-01 13:59:52.043395 (Thread-3): 13:59:52  Compiling test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-04-01 13:59:52.051823 (Thread-3): 13:59:52  Writing injected SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-04-01 13:59:52.055897 (Thread-2): 13:59:52  finished collecting timing info
+2022-04-01 13:59:52.056229 (Thread-2): 13:59:52  Began executing node test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7
+2022-04-01 13:59:52.061327 (Thread-1): 13:59:52  finished collecting timing info
+2022-04-01 13:59:52.061469 (Thread-1): 13:59:52  Began executing node test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48
+2022-04-01 13:59:52.085679 (Thread-2): 13:59:52  Writing runtime SQL for node "test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7"
+2022-04-01 13:59:52.086323 (Thread-1): 13:59:52  Writing runtime SQL for node "test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48"
+2022-04-01 13:59:52.091598 (Thread-3): 13:59:52  finished collecting timing info
+2022-04-01 13:59:52.091741 (Thread-3): 13:59:52  Began executing node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-04-01 13:59:52.093744 (Thread-3): 13:59:52  Writing runtime SQL for node "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"
+2022-04-01 13:59:52.094682 (Thread-2): 13:59:52  Opening a new connection, currently in state init
+2022-04-01 13:59:52.099053 (Thread-2): 13:59:52  On test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+select *
+from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+where country is null
+
+
+
+      
+    ) dbt_internal_test
+2022-04-01 13:59:52.104394 (Thread-1): 13:59:52  Opening a new connection, currently in state closed
+2022-04-01 13:59:52.105615 (Thread-3): 13:59:52  Opening a new connection, currently in state init
+2022-04-01 13:59:52.108974 (Thread-1): 13:59:52  On test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48"} */
+select
+      count(*) as failures,
+      count(*) <40 as should_warn,
+      count(*) >=41 as should_error
+    from (
+      
+    
+    
+
+with all_values as (
+
+    select
+        country as value_field,
+        count(*) as n_records
+
+    from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+    group by country
+
+)
+
+select *
+from all_values
+where value_field not in (
+    'Canada','USA'
+)
+
+
+
+      
+    ) dbt_internal_test
+2022-04-01 13:59:52.110451 (Thread-3): 13:59:52  On test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08: /* {"app": "dbt", "dbt_version": "1.0.4", "profile_name": "user", "target_name": "default", "node_id": "test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08"} */
+select
+      count(*) as failures,
+      count(*) != 0 as should_warn,
+      count(*) != 0 as should_error
+    from (
+      
+    
+    
+
+with dbt_test__target as (
+  
+  select country as unique_field
+  from `data-and-analytics-297601`.`f1_data`.`F1_CIRCUITS`
+  where country is not null
+  
+)
+
+select
+    unique_field,
+    count(*) as n_records
+
+from dbt_test__target
+group by unique_field
+having count(*) > 1
+
+
+
+      
+    ) dbt_internal_test
+2022-04-01 13:59:52.762589 (Thread-445): handling poll request
+2022-04-01 13:59:52.762981 (Thread-445): 13:59:52  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd455b490>]}
+2022-04-01 13:59:52.764240 (Thread-445): sending response (<Response 21601 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:53.093526 (Thread-1): 13:59:53  finished collecting timing info
+2022-04-01 13:59:53.094016 (Thread-1): 13:59:53  1 of 3 WARN 34 source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.. [WARN 34 in 1.07s]
+2022-04-01 13:59:53.094189 (Thread-1): 13:59:53  Finished running node test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48
+2022-04-01 13:59:53.520450 (Thread-2): 13:59:53  finished collecting timing info
+2022-04-01 13:59:53.521035 (Thread-2): 13:59:53  2 of 3 PASS source_not_null_f1_data_F1_CIRCUITS_country......................... [PASS in 1.50s]
+2022-04-01 13:59:53.521175 (Thread-2): 13:59:53  Finished running node test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7
+2022-04-01 13:59:53.820962 (Thread-3): 13:59:53  finished collecting timing info
+2022-04-01 13:59:53.821429 (Thread-3): 13:59:53  3 of 3 FAIL 14 source_unique_f1_data_F1_CIRCUITS_country........................ [FAIL 14 in 1.78s]
+2022-04-01 13:59:53.821554 (Thread-3): 13:59:53  Finished running node test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08
+2022-04-01 13:59:53.823168 (MainThread): 13:59:53  Acquiring new bigquery connection "master"
+2022-04-01 13:59:53.823466 (MainThread): 13:59:53  
+2022-04-01 13:59:53.823572 (MainThread): 13:59:53  Finished running 3 tests in 1.99s.
+2022-04-01 13:59:53.823654 (MainThread): 13:59:53  Connection 'master' was properly closed.
+2022-04-01 13:59:53.823722 (MainThread): 13:59:53  Connection 'test.my_f1_project.source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.58c9006d48' was properly closed.
+2022-04-01 13:59:53.823786 (MainThread): 13:59:53  Connection 'test.my_f1_project.source_not_null_f1_data_F1_CIRCUITS_country.f3698d27a7' was properly closed.
+2022-04-01 13:59:53.823848 (MainThread): 13:59:53  Connection 'test.my_f1_project.source_unique_f1_data_F1_CIRCUITS_country.a534f74e08' was properly closed.
+2022-04-01 13:59:53.882364 (Thread-446): handling poll request
+2022-04-01 13:59:53.882714 (Thread-446): 13:59:53  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd40b5040>]}
+2022-04-01 13:59:53.883378 (Thread-446): sending response (<Response 6913 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:53.895367 (MainThread): 13:59:53  
+2022-04-01 13:59:53.895567 (MainThread): 13:59:53  Completed with 1 error and 1 warning:
+2022-04-01 13:59:53.895658 (MainThread): 13:59:53  
+2022-04-01 13:59:53.895763 (MainThread): 13:59:53  Failure in test source_unique_f1_data_F1_CIRCUITS_country (models/f1_config.yml)
+2022-04-01 13:59:53.895843 (MainThread): 13:59:53    Got 14 results, configured to fail if != 0
+2022-04-01 13:59:53.895916 (MainThread): 13:59:53  
+2022-04-01 13:59:53.895996 (MainThread): 13:59:53    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_unique_f1_data_F1_CIRCUITS_country.sql
+2022-04-01 13:59:53.896081 (MainThread): 13:59:53  
+2022-04-01 13:59:53.896173 (MainThread): 13:59:53  Warning in test source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA (models/f1_config.yml)
+2022-04-01 13:59:53.896247 (MainThread): 13:59:53    Got 34 results, configured to warn if <40
+2022-04-01 13:59:53.896319 (MainThread): 13:59:53  
+2022-04-01 13:59:53.896392 (MainThread): 13:59:53    compiled SQL at target/compiled/my_f1_project/models/f1_config.yml/source_accepted_values_f1_data_F1_CIRCUITS_country__Canada__USA.sql
+2022-04-01 13:59:53.896477 (MainThread): 13:59:53  
+2022-04-01 13:59:53.896557 (MainThread): 13:59:53  Done. PASS=1 WARN=1 ERROR=1 SKIP=0 TOTAL=3
+2022-04-01 13:59:55.003271 (Thread-447): handling poll request
+2022-04-01 13:59:55.003640 (Thread-447): 13:59:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4419a90>]}
+2022-04-01 13:59:55.004892 (Thread-447): sending response (<Response 14854 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:55.446930 (Thread-448): handling status request
+2022-04-01 13:59:55.447326 (Thread-448): 13:59:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4419160>]}
+2022-04-01 13:59:55.447900 (Thread-448): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 13:59:55.483822 (Thread-449): handling status request
+2022-04-01 13:59:55.484096 (Thread-449): 13:59:55  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd44193a0>]}
+2022-04-01 13:59:55.484539 (Thread-449): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238
+2022-04-01 14:00:44.213869 (Thread-450): handling status request
+2022-04-01 14:00:44.214257 (Thread-450): 14:00:44  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'b6f51dd8-922b-4cf8-a71b-ef1472d2a698', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f8cd4572580>]}
+2022-04-01 14:00:44.214865 (Thread-450): sending response (<Response 2164 bytes [200 OK]>) to 10.0.14.238

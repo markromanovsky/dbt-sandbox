@@ -21,3 +21,8 @@ sources:
                   severity: error
                   warn_if: "<40"
                   error_if: ">=41"
+            - unique:
+                config:
+                  name: unique_country
+                  enabled: true
+            - not_null
